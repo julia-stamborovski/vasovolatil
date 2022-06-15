@@ -1,0 +1,13 @@
+/* font-family: 'Taviraj', serif; */
+
+@import './global/global.css';
+@import './utilidades/tipografia.css';
+@import './utilidades/cores.css';
+@import './global/header.css';
+/* utilidade */
+@import './utilidades/componentes.css';
+
+/* home */
+@import './home/introducao.css';
+/* ceramicas lista */
+@import './ceramicas/ceramicas-lista.css';

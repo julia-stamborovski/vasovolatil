@@ -1,0 +1,44 @@
+body
+{
+    background-color: #d3c5b6 ;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 600px;
+}
+
+ h1,
+ h2,
+ h3,
+ h4,
+ ul , 
+ p /* tudo que eu estiver tirando margin colocarei aqui */
+{
+    margin: 0px;
+}
+
+ul
+{
+    padding: 0px;
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+img
+{
+ max-width: 100%;
+ display: block;
+}
+
+
+/* acima os elementos foram resetados */
+
+img[src$=".jpg"] 
+{
+    border-radius: 4px;
+
+}
